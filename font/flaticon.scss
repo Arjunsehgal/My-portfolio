@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?a1be247947779d38e43a1850c8e64f27") format("truetype"),
+url("./flaticon.woff?a1be247947779d38e43a1850c8e64f27") format("woff"),
+url("./flaticon.woff2?a1be247947779d38e43a1850c8e64f27") format("woff2"),
+url("./flaticon.eot?a1be247947779d38e43a1850c8e64f27#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a1be247947779d38e43a1850c8e64f27#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "download": "\f101",
+    "close": "\f102",
+    "fire": "\f103",
+    "user": "\f104",
+    "coffee": "\f105",
+    "friends": "\f106",
+    "cv": "\f107",
+    "left-arrow": "\f108",
+    "right-arrow": "\f109",
+);
+
+.flaticon-download:before {
+    content: map-get($flaticon-map, "download");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-fire:before {
+    content: map-get($flaticon-map, "fire");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-coffee:before {
+    content: map-get($flaticon-map, "coffee");
+}
+.flaticon-friends:before {
+    content: map-get($flaticon-map, "friends");
+}
+.flaticon-cv:before {
+    content: map-get($flaticon-map, "cv");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
