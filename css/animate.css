@@ -18,12 +18,12 @@
 }
 .wrapper .static-txt{
   color: #fff;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 400;
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
-  height: 30px;
+  height: 20px;
   line-height: 30px;
   overflow: hidden; 
 
@@ -31,7 +31,7 @@
 .dynamic-txts li{
   color: crimson;
   list-style: none; 
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   position: relative;
   top: 0;
@@ -52,19 +52,19 @@
   height: 100%;
   width:100%;
   border-left: 2px solid #FC6D6D;
-  animation:  typing 2.5s steps(15) infinite;
+  animation:  typing 1.5s steps(15) infinite;
 }
 @keyframes typing {
   100%{
     left: 100%;
     margin: 0 -35px 0 35px;
   }
-  40%, 60%{
+  /* 40%, 60%{
     left: calc(100% + 30px);
   }
   100%{
     left: 0;
-  }
+  } */
 }
 /* @keyframes typing {
   40%, 60%{
