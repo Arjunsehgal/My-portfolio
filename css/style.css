@@ -1821,6 +1821,8 @@ img {
     z-index: 1;
 }
 
+
+
 /*** 
 
 ====================================================================
@@ -1849,6 +1851,7 @@ img {
 
 .about-me .image-column .image-box {
     position: relative;
+    border: 7px solid #555;
 }
 
 .about-me .image-column .image {

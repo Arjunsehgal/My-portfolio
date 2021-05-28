@@ -8,11 +8,17 @@
  * Copyright (c) 2019 Daniel Eden
  */
 
-/* body{
-  font-family: 'popins' , sans-serif;
-  display: flex;
-  min-height: 100vh;
-} */
+ body {
+  font: 16px/1 sans-serif;
+  line-height: 28px;
+  font-weight: 400;
+  color: #626262;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: #17161A;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
 .wrapper{
   display: inline-flex;
 }
@@ -33,6 +39,7 @@
   list-style: none; 
   font-size: 20px;
   font-weight: 500;
+  
   position: relative;
   top: 0;
   animation:  slide 6s steps(4) infinite;
