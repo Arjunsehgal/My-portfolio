@@ -15,9 +15,7 @@
   color: #626262;
   font-size: 1rem;
   line-height: 1.5rem;
-  background: #17161A;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
+   
 }
 .wrapper{
   display: inline-flex;
@@ -25,7 +23,7 @@
 .wrapper .static-txt{
   color: #fff;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
@@ -58,6 +56,9 @@
   left: 0;
   height: 100%;
   width:100%;
+  background: #17161A;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
   border-left: 2px solid #FC6D6D;
   animation:  typing 1.5s steps(15) infinite;
 }
