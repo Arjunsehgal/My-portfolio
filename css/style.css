@@ -343,6 +343,8 @@ li {
 .btn-style-one {
     position: relative;
     display: inline-flex;
+    margin-bottom: auto;
+    margin-top: 30%;
 }
 
 .btn-style-one .btn-title {
@@ -369,7 +371,7 @@ li {
 .btn-style-one .btn-title .icon {
     position: relative;
     color: inherit;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .btn-style-one .btn-title:before {

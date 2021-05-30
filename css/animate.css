@@ -26,6 +26,10 @@ h1 {
 }
 h1 { font-size: 2.5em; }
 
+/* .txt-rotate{
+  color: rgb(58, 52, 27);
+} */
+
 .wrapper{
   display: inline-flex;
 }
