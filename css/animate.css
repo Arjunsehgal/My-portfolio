@@ -17,6 +17,9 @@
   line-height: 1.5rem;
    
 }
+
+* { color:#fff; text-decoration: none;}
+
 .wrapper{
   display: inline-flex;
 }
